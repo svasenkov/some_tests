@@ -72,7 +72,6 @@ tasks.withType(Test) {
             exceptionFormat "short"
         }
     }
-    allure.resultsDir = file("build/allure-results")
 }
 
 task tests(type: Test) {
